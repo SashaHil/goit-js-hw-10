@@ -40,7 +40,7 @@ function onRenderCountryList(countries) {
     .map(country => {
       return `<li class ="country">
                  <div class ="title">
-                <img src="${country.flags.svg}" alt="${country.name.official}" width="30" height="30" />
+                <img src="${country.flags.svg}" alt="${country.name.official}" width="40" height="30" />
                   <h2>${country.name.official}</h2>
                   </div>
             </li>`;
@@ -57,7 +57,7 @@ function onRenderCountry(countries) {
                 <div class ="title">
                 <img src="${country.flags.svg}" alt="${
         country.name.official
-      }" width="30" height="30" />
+      }" width="40" height="30" />
                   <h2>${country.name.official}</h2>
                   </div>
                     <p><b>Capital</b>: ${country.capital}</p>
